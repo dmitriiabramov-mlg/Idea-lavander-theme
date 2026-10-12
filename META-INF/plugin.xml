@@ -1,0 +1,13 @@
+<idea-plugin>
+  <id>com.example.islands.lavender</id>
+  <name>Islands Lavender</name>
+  <vendor>me</vendor>
+  <version>1.2</version>
+  <description>Islands Light based theme with a lavender (#BFBFFF) tinted interface.</description>
+  <depends>com.intellij.modules.platform</depends>
+  <extensions defaultExtensionNs="com.intellij">
+    <themeProvider id="6f2c1c1e-8a3b-4c1d-9a55-2b7d3f0a1e11"
+                   path="/theme/IslandsLavender.theme.json"
+                   targetUi="islands"/>
+  </extensions>
+</idea-plugin>
